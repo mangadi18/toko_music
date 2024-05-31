@@ -1,0 +1,261 @@
+CRITICAL - 2023-10-29 04:24:28 --> Call to undefined method App\Libraries\Template::tampil()
+in APPPATH\Controllers\Beranda.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 04:24:45 --> App\Controllers\Beranda::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Beranda.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 04:25:01 --> Call to undefined method App\Libraries\Template::Tempalate()
+in APPPATH\Controllers\Beranda.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 04:25:21 --> Call to undefined method App\Libraries\Template::tampil()
+in APPPATH\Controllers\Beranda.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 04:25:47 --> App\Controllers\Beranda::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Beranda.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 04:46:34 --> Invalid file: "components/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('components/header.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('components/header', [], true)
+ 3 APPPATH\Libraries\Template.php(8): view('components/header')
+ 4 APPPATH\Controllers\Beranda.php(11): App\Libraries\Template::tampil('beranda')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 04:49:00 --> Invalid file: "components/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('components/header.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('components/header', [], true)
+ 3 APPPATH\Libraries\Template.php(8): view('components/header')
+ 4 APPPATH\Controllers\Beranda.php(11): App\Libraries\Template::tampil('beranda')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 04:49:02 --> Invalid file: "components/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('components/header.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('components/header', [], true)
+ 3 APPPATH\Libraries\Template.php(8): view('components/header')
+ 4 APPPATH\Controllers\Beranda.php(11): App\Libraries\Template::tampil('beranda')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 04:50:39 --> Undefined variable $body
+in APPPATH\Libraries\Template.php on line 9.
+ 1 APPPATH\Libraries\Template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $body', 'C:\\xampp\\htdocs\\web2\\app\\Libraries\\Template.php', 9)
+ 2 APPPATH\Controllers\Beranda.php(11): App\Libraries\Template::tampil('beranda')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 04:51:20 --> Undefined variable $body
+in APPPATH\Libraries\Template.php on line 9.
+ 1 APPPATH\Libraries\Template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $body', 'C:\\xampp\\htdocs\\web2\\app\\Libraries\\Template.php', 9)
+ 2 APPPATH\Controllers\Beranda.php(11): App\Libraries\Template::tampil('beranda')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 04:51:46 --> Undefined variable $body
+in APPPATH\Libraries\Template.php on line 9.
+ 1 APPPATH\Libraries\Template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $body', 'C:\\xampp\\htdocs\\web2\\app\\Libraries\\Template.php', 9)
+ 2 APPPATH\Controllers\Beranda.php(11): App\Libraries\Template::tampil('beranda')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 04:52:31 --> Undefined variable $body
+in APPPATH\Libraries\Template.php on line 9.
+ 1 APPPATH\Libraries\Template.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $body', 'C:\\xampp\\htdocs\\web2\\app\\Libraries\\Template.php', 9)
+ 2 APPPATH\Controllers\Beranda.php(11): App\Libraries\Template::tampil('beranda')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 04:52:59 --> Undefined variable $footer
+in APPPATH\Libraries\Template.php on line 14.
+ 1 APPPATH\Libraries\Template.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $footer', 'C:\\xampp\\htdocs\\web2\\app\\Libraries\\Template.php', 14)
+ 2 APPPATH\Controllers\Beranda.php(11): App\Libraries\Template::tampil('beranda')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 04:53:28 --> Undefined variable $footer
+in APPPATH\Libraries\Template.php on line 15.
+ 1 APPPATH\Libraries\Template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $footer', 'C:\\xampp\\htdocs\\web2\\app\\Libraries\\Template.php', 15)
+ 2 APPPATH\Controllers\Beranda.php(11): App\Libraries\Template::tampil('beranda')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 04:53:58 --> Undefined variable $footer
+in APPPATH\Libraries\Template.php on line 15.
+ 1 APPPATH\Libraries\Template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $footer', 'C:\\xampp\\htdocs\\web2\\app\\Libraries\\Template.php', 15)
+ 2 APPPATH\Controllers\Beranda.php(11): App\Libraries\Template::tampil('beranda')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 04:55:40 --> Undefined variable $footer
+in APPPATH\Libraries\Template.php on line 15.
+ 1 APPPATH\Libraries\Template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $footer', 'C:\\xampp\\htdocs\\web2\\app\\Libraries\\Template.php', 15)
+ 2 APPPATH\Controllers\Beranda.php(11): App\Libraries\Template::tampil('beranda')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 04:55:41 --> Undefined variable $footer
+in APPPATH\Libraries\Template.php on line 15.
+ 1 APPPATH\Libraries\Template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $footer', 'C:\\xampp\\htdocs\\web2\\app\\Libraries\\Template.php', 15)
+ 2 APPPATH\Controllers\Beranda.php(11): App\Libraries\Template::tampil('beranda')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 04:59:23 --> Undefined variable $footer
+in APPPATH\Views\components\index.php on line 11.
+ 1 APPPATH\Views\components\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $footer', 'C:\\xampp\\htdocs\\web2\\app\\Views\\components\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\web2\\app\\Views\\components\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('components/index', [], true)
+ 5 APPPATH\Libraries\Template.php(18): view('components/index', [...])
+ 6 APPPATH\Controllers\Beranda.php(11): App\Libraries\Template::tampil('beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 05:00:34 --> Undefined variable $header
+in APPPATH\Libraries\Template.php on line 13.
+ 1 APPPATH\Libraries\Template.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $header', 'C:\\xampp\\htdocs\\web2\\app\\Libraries\\Template.php', 13)
+ 2 APPPATH\Controllers\Beranda.php(11): App\Libraries\Template::tampil('beranda')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 05:00:42 --> Undefined variable $header
+in APPPATH\Views\components\index.php on line 9.
+ 1 APPPATH\Views\components\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $header', 'C:\\xampp\\htdocs\\web2\\app\\Views\\components\\index.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\web2\\app\\Views\\components\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('components/index', [], true)
+ 5 APPPATH\Libraries\Template.php(18): view('components/index', [...])
+ 6 APPPATH\Controllers\Beranda.php(11): App\Libraries\Template::tampil('beranda')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Beranda->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 08:44:35 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\User/Beranda::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\User/Beranda::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 08:44:47 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\User/Beranda::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\User/Beranda::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 08:46:30 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\User/Beranda::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\User/Beranda::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 08:49:15 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\User/Produk::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\User/Produk::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('daftar-produk')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('daftar-produk')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 09:02:51 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/Login::index"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Login::index')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('admin/login')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('admin/login')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 09:03:51 --> preg_match(): Compilation failed: PCRE2 does not support \F, \L, \l, \N{name}, \U, or \u at offset 8
+in SYSTEMPATH\Router\Router.php on line 422.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: PCRE2 does not support \\F, \\L, \\l, \\N{name}, \\U, or \\u at offset 8', 'C:\\xampp\\htdocs\\web2\\pertemuan7\\system\\Router\\Router.php', 422)
+ 2 SYSTEMPATH\Router\Router.php(422): preg_match('#^admin\\login$#u', 'admin/login', [])
+ 3 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('admin/login')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('admin/login')
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 09:31:31 --> Undefined variable $body
+in APPPATH\Views\admin\index.php on line 20.
+ 1 APPPATH\Views\admin\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $body', 'C:\\xampp\\htdocs\\web2\\pertemuan7\\app\\Views\\admin\\index.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\web2\\pertemuan7\\app\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Libraries\Template.php(24): view('admin/index')
+ 6 APPPATH\Controllers\Admin\Dashboard.php(12): App\Libraries\Template::tampil_admin('admin/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 09:35:21 --> Undefined variable $header
+in APPPATH\Views\admin\index.php on line 9.
+ 1 APPPATH\Views\admin\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $header', 'C:\\xampp\\htdocs\\web2\\pertemuan7\\app\\Views\\admin\\index.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\web2\\pertemuan7\\app\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Libraries\Template.php(24): view('admin/index')
+ 6 APPPATH\Controllers\Admin\Dashboard.php(12): App\Libraries\Template::tampil_admin('admin/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 09:35:26 --> Undefined variable $header
+in APPPATH\Views\admin\index.php on line 9.
+ 1 APPPATH\Views\admin\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $header', 'C:\\xampp\\htdocs\\web2\\pertemuan7\\app\\Views\\admin\\index.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\web2\\pertemuan7\\app\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Libraries\Template.php(24): view('admin/index')
+ 6 APPPATH\Controllers\Admin\Dashboard.php(12): App\Libraries\Template::tampil_admin('admin/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 09:35:35 --> Undefined variable $menu
+in APPPATH\Views\admin\index.php on line 9.
+ 1 APPPATH\Views\admin\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'C:\\xampp\\htdocs\\web2\\pertemuan7\\app\\Views\\admin\\index.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\web2\\pertemuan7\\app\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Libraries\Template.php(24): view('admin/index')
+ 6 APPPATH\Controllers\Admin\Dashboard.php(12): App\Libraries\Template::tampil_admin('admin/dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

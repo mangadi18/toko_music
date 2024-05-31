@@ -1,0 +1,19 @@
+CRITICAL - 2023-12-07 05:20:37 --> Could not move file "phpA573.tmp" to "gambar/". Reason: 
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 158.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpA573.tmp', 'gambar/', '')
+ 2 APPPATH\Controllers\Admin\Produk.php(39): CodeIgniter\HTTP\Files\UploadedFile->move('gambar/', 'C:\\xampp\\tmp\\phpA573.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->insert()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 05:33:41 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Admin\Produk.php(91): CodeIgniter\HTTP\Files\UploadedFile->move('gambar/', '')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->update('23')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-07 05:34:02 --> Cannot use [] for reading
+in APPPATH\Controllers\Admin\Produk.php on line 88.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

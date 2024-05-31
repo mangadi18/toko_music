@@ -1,0 +1,246 @@
+ERROR - 2023-11-23 04:06:33 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'toko_online' in C:\xampp\htdocs\web2\pertemuan11\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\web2\pertemuan11\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'toko_online', 3306, '', 0)
+#1 C:\xampp\htdocs\web2\pertemuan11\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\web2\pertemuan11\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\web2\pertemuan11\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\web2\pertemuan11\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\web2\pertemuan11\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\web2\pertemuan11\app\Controllers\User\Beranda.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\web2\pertemuan11\system\CodeIgniter.php(919): App\Controllers\User\Beranda->index()
+#8 C:\xampp\htdocs\web2\pertemuan11\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Beranda))
+#9 C:\xampp\htdocs\web2\pertemuan11\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\web2\pertemuan11\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'toko_online' in C:\xampp\htdocs\web2\pertemuan11\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\web2\pertemuan11\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\web2\pertemuan11\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\web2\pertemuan11\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\web2\pertemuan11\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\web2\pertemuan11\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\web2\pertemuan11\app\Controllers\User\Beranda.php(15): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\web2\pertemuan11\system\CodeIgniter.php(919): App\Controllers\User\Beranda->index()
+#7 C:\xampp\htdocs\web2\pertemuan11\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Beranda))
+#8 C:\xampp\htdocs\web2\pertemuan11\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\web2\pertemuan11\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-23 04:06:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'toko_online'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product`
+ORDER BY `id_product` DESC', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\User\Beranda.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User\Beranda->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Beranda))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-23 04:06:51 --> mysqli_sql_exception: Table 'toko_online.product' doesn't exist in C:\xampp\htdocs\web2\pertemuan11\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\web2\pertemuan11\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\web2\pertemuan11\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\web2\pertemuan11\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\web2\pertemuan11\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\web2\pertemuan11\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\web2\pertemuan11\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\web2\pertemuan11\app\Controllers\User\Beranda.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\web2\pertemuan11\system\CodeIgniter.php(919): App\Controllers\User\Beranda->index()
+#8 C:\xampp\htdocs\web2\pertemuan11\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Beranda))
+#9 C:\xampp\htdocs\web2\pertemuan11\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\web2\pertemuan11\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-23 04:06:51 --> Table 'toko_online.product' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product`
+ORDER BY `id_product` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\User\Beranda.php(15): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\User\Beranda->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Beranda))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 04:14:59 --> Illegal offset type
+in APPPATH\Controllers\Admin\Produk.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 04:15:05 --> Illegal offset type
+in APPPATH\Controllers\Admin\Produk.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 04:15:13 --> Illegal offset type
+in APPPATH\Controllers\Admin\Produk.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 04:15:49 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Admin\Produk.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Controllers\\Admin\\Produk.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Produk')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Produk')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin\\Produk', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 04:17:57 --> Undefined variable $product_list
+in APPPATH\Views\admin\produk_daftar.php on line 26.
+ 1 APPPATH\Views\admin\produk_daftar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_list', 'C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Views\\admin\\produk_daftar.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Views\\admin\\produk_daftar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/produk_daftar', [], true)
+ 5 APPPATH\Libraries\Template.php(25): view('admin/produk_daftar', [...])
+ 6 APPPATH\Controllers\Admin\Produk.php(22): App\Libraries\Template::tampil_admin('admin/produk_daftar', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 04:18:04 --> Undefined variable $product_list
+in APPPATH\Views\admin\produk_daftar.php on line 26.
+ 1 APPPATH\Views\admin\produk_daftar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_list', 'C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Views\\admin\\produk_daftar.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Views\\admin\\produk_daftar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/produk_daftar', [], true)
+ 5 APPPATH\Libraries\Template.php(25): view('admin/produk_daftar', [...])
+ 6 APPPATH\Controllers\Admin\Produk.php(22): App\Libraries\Template::tampil_admin('admin/produk_daftar', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 04:18:07 --> Undefined variable $product_list
+in APPPATH\Views\admin\produk_daftar.php on line 26.
+ 1 APPPATH\Views\admin\produk_daftar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_list', 'C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Views\\admin\\produk_daftar.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Views\\admin\\produk_daftar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/produk_daftar', [], true)
+ 5 APPPATH\Libraries\Template.php(25): view('admin/produk_daftar', [...])
+ 6 APPPATH\Controllers\Admin\Produk.php(22): App\Libraries\Template::tampil_admin('admin/produk_daftar', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 05:25:19 --> Undefined variable $product_row
+in APPPATH\Views\admin\produk_edit.php on line 14.
+ 1 APPPATH\Views\admin\produk_edit.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_row', 'C:\\xampp\\htdocs\\web2\\pertemuan12\\app\\Views\\admin\\produk_edit.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\web2\\pertemuan12\\app\\Views\\admin\\produk_edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/produk_edit', [], true)
+ 5 APPPATH\Libraries\Template.php(25): view('admin/produk_edit', [])
+ 6 APPPATH\Controllers\Admin\Produk.php(66): App\Libraries\Template::tampil_admin('admin/produk_edit', [])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 05:28:20 --> Undefined variable $product_list
+in APPPATH\Views\admin\produk_edit.php on line 10.
+ 1 APPPATH\Views\admin\produk_edit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_list', 'C:\\xampp\\htdocs\\web2\\pertemuan12\\app\\Views\\admin\\produk_edit.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\web2\\pertemuan12\\app\\Views\\admin\\produk_edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/produk_edit', [], true)
+ 5 APPPATH\Libraries\Template.php(25): view('admin/produk_edit', [])
+ 6 APPPATH\Controllers\Admin\Produk.php(66): App\Libraries\Template::tampil_admin('admin/produk_edit', [])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 05:29:00 --> Undefined variable $product_list
+in APPPATH\Views\admin\produk_edit.php on line 10.
+ 1 APPPATH\Views\admin\produk_edit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_list', 'C:\\xampp\\htdocs\\web2\\pertemuan12\\app\\Views\\admin\\produk_edit.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\web2\\pertemuan12\\app\\Views\\admin\\produk_edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/produk_edit', [], true)
+ 5 APPPATH\Libraries\Template.php(25): view('admin/produk_edit', [])
+ 6 APPPATH\Controllers\Admin\Produk.php(66): App\Libraries\Template::tampil_admin('admin/produk_edit', [])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 05:29:15 --> Undefined variable $product_list
+in APPPATH\Views\admin\produk_edit.php on line 10.
+ 1 APPPATH\Views\admin\produk_edit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_list', 'C:\\xampp\\htdocs\\web2\\pertemuan12\\app\\Views\\admin\\produk_edit.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\web2\\pertemuan12\\app\\Views\\admin\\produk_edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/produk_edit', [], true)
+ 5 APPPATH\Libraries\Template.php(25): view('admin/produk_edit', [])
+ 6 APPPATH\Controllers\Admin\Produk.php(66): App\Libraries\Template::tampil_admin('admin/produk_edit', [])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 05:29:47 --> Undefined variable $product_row
+in APPPATH\Views\admin\produk_edit.php on line 10.
+ 1 APPPATH\Views\admin\produk_edit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_row', 'C:\\xampp\\htdocs\\web2\\pertemuan12\\app\\Views\\admin\\produk_edit.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\web2\\pertemuan12\\app\\Views\\admin\\produk_edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/produk_edit', [], true)
+ 5 APPPATH\Libraries\Template.php(25): view('admin/produk_edit', [])
+ 6 APPPATH\Controllers\Admin\Produk.php(66): App\Libraries\Template::tampil_admin('admin/produk_edit', [])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 05:30:41 --> Undefined variable $product_row
+in APPPATH\Views\admin\produk_edit.php on line 10.
+ 1 APPPATH\Views\admin\produk_edit.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_row', 'C:\\xampp\\htdocs\\web2\\pertemuan12\\app\\Views\\admin\\produk_edit.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\web2\\pertemuan12\\app\\Views\\admin\\produk_edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/produk_edit', [], true)
+ 5 APPPATH\Libraries\Template.php(25): view('admin/produk_edit', [])
+ 6 APPPATH\Controllers\Admin\Produk.php(66): App\Libraries\Template::tampil_admin('admin/produk_edit', [])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 05:31:02 --> Undefined variable $product_row
+in APPPATH\Views\admin\produk_edit.php on line 9.
+ 1 APPPATH\Views\admin\produk_edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_row', 'C:\\xampp\\htdocs\\web2\\pertemuan12\\app\\Views\\admin\\produk_edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\web2\\pertemuan12\\app\\Views\\admin\\produk_edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/produk_edit', [], true)
+ 5 APPPATH\Libraries\Template.php(25): view('admin/produk_edit', [])
+ 6 APPPATH\Controllers\Admin\Produk.php(66): App\Libraries\Template::tampil_admin('admin/produk_edit', [])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 05:31:28 --> Undefined variable $row
+in APPPATH\Views\admin\produk_edit.php on line 14.
+ 1 APPPATH\Views\admin\produk_edit.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'C:\\xampp\\htdocs\\web2\\pertemuan12\\app\\Views\\admin\\produk_edit.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\web2\\pertemuan12\\app\\Views\\admin\\produk_edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/produk_edit', [], true)
+ 5 APPPATH\Libraries\Template.php(25): view('admin/produk_edit', [])
+ 6 APPPATH\Controllers\Admin\Produk.php(66): App\Libraries\Template::tampil_admin('admin/produk_edit', [])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 05:32:09 --> Undefined variable $product_row
+in APPPATH\Views\admin\produk_edit.php on line 14.
+ 1 APPPATH\Views\admin\produk_edit.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_row', 'C:\\xampp\\htdocs\\web2\\pertemuan12\\app\\Views\\admin\\produk_edit.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\web2\\pertemuan12\\app\\Views\\admin\\produk_edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/produk_edit', [], true)
+ 5 APPPATH\Libraries\Template.php(25): view('admin/produk_edit', [])
+ 6 APPPATH\Controllers\Admin\Produk.php(66): App\Libraries\Template::tampil_admin('admin/produk_edit', [])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 05:37:17 --> Undefined variable $data
+in APPPATH\Controllers\Admin\Produk.php on line 27.
+ 1 APPPATH\Controllers\Admin\Produk.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\web2\\pertemuan12\\app\\Controllers\\Admin\\Produk.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

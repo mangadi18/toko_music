@@ -1,0 +1,213 @@
+CRITICAL - 2023-11-21 03:13:15 --> Undefined variable $product_list
+in APPPATH\Controllers\Admin\Dashboard.php on line 17.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product_list', 'C:\\xampp\\htdocs\\web2\\pertemuan10\\app\\Controllers\\Admin\\Dashboard.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 03:13:25 --> Undefined variable $data
+in APPPATH\Controllers\Admin\Dashboard.php on line 16.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\web2\\pertemuan10\\app\\Controllers\\Admin\\Dashboard.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 03:13:33 --> Undefined variable $data
+in APPPATH\Controllers\Admin\Dashboard.php on line 16.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\web2\\pertemuan10\\app\\Controllers\\Admin\\Dashboard.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 03:13:36 --> Undefined variable $data
+in APPPATH\Controllers\Admin\Dashboard.php on line 16.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\web2\\pertemuan10\\app\\Controllers\\Admin\\Dashboard.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 03:23:12 --> Undefined variable $data
+in APPPATH\Controllers\Admin\Dashboard.php on line 16.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\web2\\pertemuan10\\app\\Controllers\\Admin\\Dashboard.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 07:36:27 --> Undefined variable $data
+in APPPATH\Controllers\Admin\Dashboard.php on line 14.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\web2\\pertemuan10\\app\\Controllers\\Admin\\Dashboard.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 07:36:35 --> Too few arguments to function App\Libraries\Template::tampil_admin(), 1 passed in C:\xampp\htdocs\web2\pertemuan10\app\Controllers\Admin\Dashboard.php on line 14 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 21.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(14): App\Libraries\Template::tampil_admin('admin/dashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 07:37:02 --> Too few arguments to function App\Libraries\Template::tampil_admin(), 1 passed in C:\xampp\htdocs\web2\pertemuan10\app\Controllers\Admin\Dashboard.php on line 14 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 21.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(14): App\Libraries\Template::tampil_admin('admin/dashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 07:37:50 --> syntax error, unexpected token "{", expecting ")"
+in APPPATH\Controllers\Admin\Dashboard.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\web2\\pertemuan10\\app\\Controllers\\Admin\\dashboard.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\dashboard')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin\\dashboard', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 07:38:08 --> Too few arguments to function App\Libraries\Template::tampil_admin(), 1 passed in C:\xampp\htdocs\web2\pertemuan10\app\Controllers\Admin\Dashboard.php on line 21 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 21.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(21): App\Libraries\Template::tampil_admin('admin/dashboard')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 07:38:32 --> Undefined variable $data
+in APPPATH\Controllers\Admin\Dashboard.php on line 16.
+ 1 APPPATH\Controllers\Admin\Dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\web2\\pertemuan10\\app\\Controllers\\Admin\\Dashboard.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 07:43:32 --> Too few arguments to function App\Libraries\Template::tampil_admin(), 1 passed in C:\xampp\htdocs\web2\pertemuan10\app\Controllers\Admin\Produk.php on line 25 and exactly 2 expected
+in APPPATH\Libraries\Template.php on line 21.
+ 1 APPPATH\Controllers\Admin\Produk.php(25): App\Libraries\Template::tampil_admin('admin/produk_tambah')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 07:45:02 --> Undefined variable $data
+in APPPATH\Controllers\Admin\Produk.php on line 25.
+ 1 APPPATH\Controllers\Admin\Produk.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\web2\\pertemuan10\\app\\Controllers\\Admin\\Produk.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produk->tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:03:10 --> Undefined variable $Service
+in APPPATH\Controllers\Admin\Produk.php on line 15.
+ 1 APPPATH\Controllers\Admin\Produk.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Service', 'C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Controllers\\Admin\\Produk.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:03:19 --> Undefined variable $Service
+in APPPATH\Controllers\Admin\Produk.php on line 15.
+ 1 APPPATH\Controllers\Admin\Produk.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Service', 'C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Controllers\\Admin\\Produk.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:03:56 --> Undefined variable $Service
+in APPPATH\Controllers\Admin\Produk.php on line 15.
+ 1 APPPATH\Controllers\Admin\Produk.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Service', 'C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Controllers\\Admin\\Produk.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:04:52 --> Undefined variable $Service
+in APPPATH\Controllers\Admin\Produk.php on line 15.
+ 1 APPPATH\Controllers\Admin\Produk.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Service', 'C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Controllers\\Admin\\Produk.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:05:24 --> Undefined variable $service
+in APPPATH\Controllers\Admin\Produk.php on line 15.
+ 1 APPPATH\Controllers\Admin\Produk.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $service', 'C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Controllers\\Admin\\Produk.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:07:18 --> Undefined variable $Services
+in APPPATH\Controllers\Admin\Produk.php on line 15.
+ 1 APPPATH\Controllers\Admin\Produk.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Services', 'C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Controllers\\Admin\\Produk.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:07:22 --> Undefined variable $Services
+in APPPATH\Controllers\Admin\Produk.php on line 15.
+ 1 APPPATH\Controllers\Admin\Produk.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Services', 'C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Controllers\\Admin\\Produk.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:07:49 --> syntax error, unexpected token "\"
+in APPPATH\Controllers\Admin\Produk.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Controllers\\Admin\\Produk.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Produk')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Produk')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin\\Produk', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:08:05 --> syntax error, unexpected token "\"
+in APPPATH\Controllers\Admin\Produk.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Controllers\\Admin\\Produk.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Produk')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Produk')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin\\Produk', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:08:31 --> Undefined variable $request
+in APPPATH\Controllers\Admin\Produk.php on line 16.
+ 1 APPPATH\Controllers\Admin\Produk.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Controllers\\Admin\\Produk.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:10:03 --> Undefined variable $Services
+in APPPATH\Controllers\Admin\Produk.php on line 15.
+ 1 APPPATH\Controllers\Admin\Produk.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Services', 'C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Controllers\\Admin\\Produk.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:10:19 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Admin\Produk.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Controllers\\Admin\\Produk.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Produk')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Produk')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin\\Produk', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:10:33 --> Undefined variable $Services
+in APPPATH\Controllers\Admin\Produk.php on line 14.
+ 1 APPPATH\Controllers\Admin\Produk.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Services', 'C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Controllers\\Admin\\Produk.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:10:39 --> Undefined variable $request
+in APPPATH\Controllers\Admin\Produk.php on line 15.
+ 1 APPPATH\Controllers\Admin\Produk.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $request', 'C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Controllers\\Admin\\Produk.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:11:43 --> Undefined variable $Services
+in APPPATH\Controllers\Admin\Produk.php on line 15.
+ 1 APPPATH\Controllers\Admin\Produk.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Services', 'C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Controllers\\Admin\\Produk.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Admin\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-21 14:13:28 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Controllers\Admin\Produk.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\web2\\pertemuan11\\app\\Controllers\\Admin\\Produk.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Produk')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Produk')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Admin\\Produk', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
